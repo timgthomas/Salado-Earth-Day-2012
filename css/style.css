@@ -8,6 +8,9 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
 	font-size: 22px;
 }
+label {
+	font-weight: 400;
+}
 
 /* Header ------------------------------------------------------------------- */
 header .title, header .subtitle {
@@ -20,3 +23,23 @@ header .title, header .subtitle {
 	header .subtitle {
 		font-size: 32px;
 	}
+
+/* Buttons ------------------------------------------------------------------ */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	font-family: 'Belgrano', serif;
+	font-weight: 400;
+}
+
+/* Forms -------------------------------------------------------------------- */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+	font-family: 'Belgrano', serif;
+	font-weight: 400;
+}
