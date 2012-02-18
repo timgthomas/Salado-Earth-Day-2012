@@ -1,0 +1,10 @@
+body {
+	font-family: 'Belgrano', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Bowlby One SC', sans-serif;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 24px;
+}
