@@ -12,6 +12,21 @@ label {
 	font-weight: 400;
 }
 
+/* Layouts ------------------------------------------------------------------ */
+
+body {
+	background-color: rgb(167, 196, 88);
+}
+
+header {
+	background: rgb(120, 158, 219) url('../img/sky.png') center bottom no-repeat;
+	height: 260px;
+}
+#content {
+	background: rgb(167, 196, 88) url('../img/ground.png') center top no-repeat;
+	padding: 150px 0 0;
+}
+
 /* Header ------------------------------------------------------------------- */
 header .title, header .subtitle {
 	display: block;
