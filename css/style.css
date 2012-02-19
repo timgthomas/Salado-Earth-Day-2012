@@ -12,6 +12,9 @@ label {
 	font-weight: 400;
 }
 
+::-moz-selection { background: #fffbbf; color: #000; text-shadow: none; }
+::selection { background: #fffbbf; color: #000; text-shadow: none; }
+
 /* Layouts ------------------------------------------------------------------ */
 
 body {
