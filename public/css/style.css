@@ -2,8 +2,7 @@ body {
 	font-family: 'Belgrano', serif;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Bowlby One SC', sans-serif;
-	text-transform: uppercase;
+	font-family: 'Bowlby One', sans-serif;
 }
 h2 {
 	font-size: 22px;
@@ -23,7 +22,7 @@ body {
 
 header {
 	background: rgb(120, 158, 219) url('../img/bg-header.gif') center bottom repeat-x;
-	
+	text-transform: uppercase;
 }
 header > #branding {
 	background: rgb(120, 158, 219) url('../img/sky.png') center bottom no-repeat;
