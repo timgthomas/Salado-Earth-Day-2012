@@ -31,7 +31,6 @@ header > #branding {
 }
 #content {
 	background: rgb(167, 196, 88) url('../img/ground.png') center top no-repeat;
-	padding: 150px 0 0;
 }
 
 /* Header ------------------------------------------------------------------- */
@@ -44,6 +43,22 @@ header .title, header .subtitle {
 	}
 	header .subtitle {
 		font-size: 32px;
+		line-height: 80px;
+		height: 80px;
+		margin: 20px 0 10px;
+	}
+
+/* Introduction ------------------------------------------------------------- */
+#introduction {
+	height: 120px;
+	padding: 10px 0 0;
+}
+	#introduction span {
+		display: block;
+		font-size: 24px;
+		line-height: 32px;
+		text-align: center;
+		text-shadow: 0 1px 0 #d0e0a7;
 	}
 
 /* Buttons ------------------------------------------------------------------ */
