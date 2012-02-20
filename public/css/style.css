@@ -22,7 +22,7 @@ body {
 
 header {
 	background: rgb(120, 158, 219) url('../img/bg-header.gif') center bottom repeat-x;
-	text-transform: uppercase;
+	text-indent: -9999px;
 }
 header > #branding {
 	background: rgb(120, 158, 219) url('../img/sky.png') center bottom no-repeat;
