@@ -19,10 +19,12 @@ Pony.options = {
 }
 
 get '/' do
-	send_file File.join('public', 'index.html')
+	@emailed = false
+	erb :index
 end
 
 post '/' do
+	@emailed = true
 	Pony.mail(:subject => 'Web Site Contact', :html_body => "<p><b>Name:</b> #{CGI::escapeHTML(params[:name])}</p><p><b>Email:</b> #{CGI::escapeHTML(params[:email])}</p>")
-	send_file File.join('public', 'index.html')
+	erb :index
 end

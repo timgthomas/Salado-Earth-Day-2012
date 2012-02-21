@@ -62,17 +62,21 @@
 					<p>
 						To learn more about Salado's <em>Earth Day 2012</em>,
 						provide us with your name and email address below.</p>
-					<form action="/" method="post">
-						<p>
-							<label for="name">Your Name</label>
-							<input id="name" name="name" type="text" />
-						</p>
-						<p>
-							<label for="email">Your Email</label>
-							<input id="email" name="email" type="email" />
-						</p>
-						<button type="submit">Subscribe</button>
-					</form>
+					<% if (!@emailed) %>
+						<form action="/" method="post">
+							<p>
+								<label for="name">Your Name</label>
+								<input id="name" name="name" type="text" />
+							</p>
+							<p>
+								<label for="email">Your Email</label>
+								<input id="email" name="email" type="email" />
+							</p>
+							<button type="submit">Subscribe</button>
+						</form>
+					<% elsif (@emailed) %>
+						<p>Thanks for contacting us!</p>
+					<% end %>
 				</section>
 			</div>
 		</div>
