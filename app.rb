@@ -22,6 +22,7 @@ get '/' do
 	send_file File.join('public', 'index.html')
 end
 
-post '/contact' do
+post '/' do
 	Pony.mail(:subject => 'Web Site Contact', :html_body => "<p><b>Name:</b> #{CGI::escapeHTML(params[:name])}</p><p><b>Email:</b> #{CGI::escapeHTML(params[:email])}</p>")
+	send_file File.join('public', 'index.html')
 end
