@@ -10,6 +10,10 @@ h2 {
 label {
 	font-weight: 400;
 }
+p {
+	text-align: justify;
+	text-shadow: 0 1px 0 #d0e0a7;
+}
 
 ::-moz-selection { background: #fffbbf; color: #000; text-shadow: none; }
 ::selection { background: #fffbbf; color: #000; text-shadow: none; }
@@ -32,6 +36,16 @@ header > #branding {
 	background: rgb(167, 196, 88) url('../img/ground.png') center top no-repeat;
 }
 
+/* Modules ------------------------------------------------------------------ */
+.photo {
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 130px;
+
+	border-radius: 3px;
+	box-shadow: 0 1px 0 #d0e0a7;
+}
+
 /* Header ------------------------------------------------------------------- */
 header .title, header .subtitle {
 	display: block;
@@ -50,7 +64,7 @@ header .title, header .subtitle {
 /* Introduction ------------------------------------------------------------- */
 #introduction {
 	height: 120px;
-	padding: 10px 0 0;
+	padding: 10px 0 10px;
 }
 	#introduction span {
 		display: block;
