@@ -94,6 +94,11 @@ header .title, header .subtitle {
 		text-shadow: 0 1px 0 #d0e0a7;
 	}
 
+/* Forms -------------------------------------------------------------------- */
+input.error {
+	background: #fee;
+	border: 1px solid #c00 !important; }
+
 /* Buttons ------------------------------------------------------------------ */
 .button,
 button,
