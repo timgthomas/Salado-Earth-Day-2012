@@ -109,7 +109,9 @@
 	<script>
 
 		$(function() {
-			$('#subscribe').validate();
+			$('#subscribe').validate({
+				errorPlacement: function() {}
+			});
 		});
 
 	</script>
