@@ -31,7 +31,7 @@ header {
 }
 header > #branding {
 	background: rgb(120, 158, 219) url('../img/sky.png') center bottom no-repeat;
-	height: 260px;
+	height: 300px;
 }
 #content {
 	background: rgb(167, 196, 88) url('../img/ground.png') center top no-repeat;
