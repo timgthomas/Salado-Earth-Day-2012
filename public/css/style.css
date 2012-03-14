@@ -55,6 +55,12 @@ ul#social {
 		ul#social li a#twitter { background-image: url('../img/social-twitter.png'); }
 		ul#social li a#facebook { background-image: url('../img/social-facebook.png'); }
 
+p.event-details {
+	color: #323a19;
+	font-size: 12px;
+	margin: 0 60px 12px;
+}
+
 /* Modules ------------------------------------------------------------------ */
 .photo {
 	background-position: center center;
