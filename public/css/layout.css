@@ -33,10 +33,51 @@
 	@media only screen and (max-width: 767px) {}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		header {
+			background: rgb(120, 158, 219) url('../img/bg-header-480.png') center bottom repeat-x;
+			height: 130px;
+		}
+		header > #branding {
+			background: transparent url('../img/sky-480.png') center bottom no-repeat;
+			height: 130px;
+			width: 480px;
+			margin: 0 auto;
+		}
+		.introduction {
+			background: rgb(167, 196, 88) url('../img/ground-480.png') center top no-repeat;
+			font-size: 16px;
+			line-height: 18px;
+			height: 90px;
+			width: 480px;
+			margin: 0 auto 12px;
+		}
+	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+		header {
+			background: rgb(120, 158, 219) url('../img/bg-header-480.png') center bottom repeat-x;
+			height: 130px;
+		}
+		header > #branding {
+			background: transparent url('../img/sky-320.png') center bottom no-repeat;
+			height: 130px;
+			width: 320px;
+			margin: 0 auto;
+		}
+		.introduction {
+			background: rgb(167, 196, 88) url('../img/ground-320.png') center top no-repeat;
+			font-size: 14px;
+			line-height: 16px;
+			height: 70px;
+			width: 320px;
+			margin: 0 auto 12px;
+		}
+		p.event-details {
+			margin: 0 12px 6px;
+		}
+	}
 
 
 /* #Font-Face
