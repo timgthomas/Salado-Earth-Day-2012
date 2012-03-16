@@ -123,13 +123,16 @@ table {
 		background-color: rgb(100, 115, 50);
 		color: #fff;
 		padding: 9px 0 0;
-		text-shadow: none; }
+		text-shadow: none;
+		vertical-align: bottom; }
 	table th {
-		text-align: center; }
+		text-align: center;
+		vertical-align: middle; }
 	table td {
 		color: #323a19;
 		padding: 6px 0;
-		text-align: center; }
+		text-align: center;
+		vertical-align: middle; }
 
 /* Forms -------------------------------------------------------------------- */
 input.error {
