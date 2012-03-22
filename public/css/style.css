@@ -73,6 +73,10 @@ p.event-details {
 		0 0 0 4px #fff,
 		0 1px 7px #000;
 }
+.photo-new {
+	float: left;
+	margin: 0 0 5px 0;
+}
 
 /* Header ------------------------------------------------------------------- */
 header .title, header .subtitle {
