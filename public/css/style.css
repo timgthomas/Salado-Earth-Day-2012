@@ -116,6 +116,14 @@ header .title, header .subtitle {
 		text-shadow: 0 1px 0 #d0e0a7;
 	}
 
+/* Content ------------------------------------------------------------------ */
+#content {
+	min-width: 300px;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
 /* Tables ------------------------------------------------------------------- */
 table {
 	border-bottom: 6px solid rgb(100, 115, 50);
