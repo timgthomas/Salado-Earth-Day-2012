@@ -5,6 +5,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Bowlby One', sans-serif;
 }
 h2 { font-size: 22px; }
+	h2 small {
+		font-family: 'Belgrano', serif;
+		font-size: 16px;
+	}
 h3 {
 	color: #323a19;
 	font-size: 16px;
@@ -59,6 +63,28 @@ p.event-details {
 	color: #323a19;
 	font-size: 12px;
 	margin: 0 60px 12px;
+}
+
+.sponsors {
+	text-align: center;
+}
+	.sponsors li {
+		margin: 0 0 20px;
+	}
+
+.other-sponsors {
+	color: #000;
+	font-size: 16px;
+	text-align: center;
+}
+	.other-sponsors li {
+		margin: 0 0 30px;
+	}
+
+footer p {
+	color: #323a19;
+	margin: 10px 0 30px;
+	text-align: center;
 }
 
 /* Modules ------------------------------------------------------------------ */
